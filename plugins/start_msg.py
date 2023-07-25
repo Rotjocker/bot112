@@ -32,11 +32,11 @@ async def startm(app, msg):
         coin = db.get(f'user_{user_id}')['coins']
         keys = mk(
         [
-            [btn(text='رصيدي: {:,} IQD'.format(coin), callback_data='lol')],
+            [btn(text='رصيدي: {:,} USD'.format(coin), callback_data='lol')],
             [btn(text='⦅ قسم الخدمات ⦆', callback_data='service')],
             [btn(text='⦅ تجميع الرصيد ⦆', callback_data='invite'), btn(text='⦅ شراء الرصيد ⦆', callback_data='buy')],
             [btn(text='⦅ معلومات حسابك ⦆', callback_data='account'), btn(text='⦅ تحويل الرصيد ⦆', callback_data='trans')],
-            [btn(text='قناة التحديثات', url='trprogram.t.me')]
+            [btn(text='المطور', url='ZZZ68Z.t.me')]
         ]
     )
         rk = f'''
@@ -58,11 +58,11 @@ async def startm(app, msg):
         coin = db.get(f'user_{user_id}')['coins']
         keys = mk(
         [
-            [btn(text='رصيدك: :,{} IQD'.format(coin), callback_data='none')],
+            [btn(text='رصيدك: :,{} USD'.format(coin), callback_data='none')],
             [btn(text='قسم خدمات الرشق', callback_data='service')],
             [btn(text='تجميع رصيد', callback_data='invite'), btn(text='شراء رصيد', callback_data='buy')],
             [btn(text='معلومات حسابك', callback_data='account'), btn(text='تحويل رصيد', callback_data='trans')],
-            [btn(text='قناة التحديثات', url='trprogram.t.me')]
+            [btn(text='المطور', url='zzz68z.t.me')]
         ]
     )
         rk =f'''
