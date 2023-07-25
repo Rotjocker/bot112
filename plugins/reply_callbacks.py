@@ -92,7 +92,7 @@ async def b(app, query):
         return await query.edit_message_text(k, reply_markup=mk([[btn(f'- @{i} .', url=f't.me/{i}')]]))
     rk  = """
 ⥃ لشراء الرصيد من بوت الخدمات 
-- @H_H6H
+- @p9i_u
     """
     keys = mk(
         [
