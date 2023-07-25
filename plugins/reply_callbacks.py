@@ -25,6 +25,7 @@ async def invte_call(app, query):
         [
             [btn(text='مشاركة رابط الدعوة', callback_data='sharelink'), btn(text='هدية يومية', callback_data='dailygift')],
             
+            [btn(text='تسليم ارقام ', callback_data='gen')],
             [btn(text='رجوع', callback_data='back_home')],
         ]
     )
